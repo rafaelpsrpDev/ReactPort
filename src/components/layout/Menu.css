@@ -1,0 +1,42 @@
+.Menu {
+    display: flex;
+    height: 70px;
+    background-color: #31302d;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Menu h3{
+    font-family: Ubuntu;
+    font-size: x-large;
+    padding-left: 3rem;
+    color: rgb(124, 120, 114);
+    
+}
+
+.Menu h3:hover{
+    color: rgb(87, 84, 80);
+
+}
+
+.Menu ul {
+    list-style: none;
+    display: flex;
+    padding: 3rem;
+}
+
+.Menu li{
+    padding: 1.25rem;
+    font-family: Ubuntu;
+    font-weight: 700;
+}
+
+.Menu a{
+    color: rgb(124, 120, 114);
+    font-weight: x-large;
+    text-decoration: none;
+}
+
+.Menu a:hover{
+    text-decoration: underline;
+}

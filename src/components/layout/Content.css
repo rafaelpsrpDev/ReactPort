@@ -1,0 +1,19 @@
+.Content{
+   
+    
+    background-color:rgb(17, 13, 13);
+}
+  
+@media screen and ( min-width : 0){
+
+    .Content{
+        height: 240vh;
+    }
+}
+
+@media screen and ( min-width : 768px){
+
+    .Content{
+        height: calc(100vh - 70px);
+    }
+}

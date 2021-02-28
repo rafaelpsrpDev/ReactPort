@@ -1,0 +1,41 @@
+.Contact{
+    
+    padding: 10rem;
+}
+
+.Contact ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.Contact ul li{
+
+    padding: 1rem;
+}
+
+.Contact ul li a img{
+
+    height: 100px
+}
+
+@media screen and (min-width: 0){
+
+    .Contact ul{
+        margin-top: -100px;
+        flex-direction: column;
+    }
+
+    .Contact ul li {
+
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .Contact ul{
+        flex-direction: row;
+    }
+}

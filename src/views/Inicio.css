@@ -1,0 +1,32 @@
+.Inicio{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-top: 5rem;
+}
+
+.Inicio p{
+
+    padding-top: 2rem;
+}
+
+
+.Ap__name{
+    color: rgb(124, 120, 114);
+    font-family: Ubuntu;
+    font-size: 1.37rem;
+    font-weight: 700;
+}
+
+.Ap__color{
+
+    color: rgb(75, 72, 69);
+}
+
+.Photo{
+    border-radius: 100%;
+    width: 250px;
+    display: block;
+}
+

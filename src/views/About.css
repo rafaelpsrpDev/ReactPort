@@ -1,0 +1,67 @@
+.About{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem;
+    font-family: Ubuntu;
+}
+
+
+.Ab__paragrafo{
+    color:rgb(75, 72, 69);
+    text-align: center
+}
+
+
+.Paragrafo{
+    border: 2px solid white;
+    border-radius:10px;
+    width: 300px;
+    height: 400px;
+}
+
+.Paragrafo:hover{
+    border-color:darkcyan;
+}
+
+.Ab_MeP{
+    padding: 1rem;
+    font-size: 18px;
+    color:silver;
+    text-align: justify;
+}
+
+.Paragrafo nav ul {
+    list-style: none;
+    padding-right: 35px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.Paragrafo nav ul li {
+
+    color: silver;
+    font-size: 18px;
+    padding: 0.5rem;
+}
+
+@media screen and (min-width:0){
+
+    .About{
+        flex-direction: column;
+        align-items:center;
+        
+    }
+
+    .Paragrafo {
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .About{
+        
+        flex-direction: row;
+    }
+}
